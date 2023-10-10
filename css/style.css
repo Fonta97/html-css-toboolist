@@ -64,6 +64,7 @@ header{
 .titolosezione{
     font-weight: 700;
     font-size: 25px;
+    padding: 10px;
 
 }
 
@@ -75,8 +76,9 @@ header{
 /* article impostazioni */
 
 .check{
- font-weight: 400;
- font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .check::before{
@@ -84,5 +86,66 @@ header{
     color: green;
     border-radius: 50%;
     border: solid 1px green;
+}
+
+.cross{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+   }
+
+.cross::before{
+    content: "\2717";
+    color: red;
+    border-radius: 50%;
+    border: solid 1px red;
+}
+
+.editorial{
+    background-color: rgb(87, 165, 255);
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.Q1goals{
+    background-color: rgb(187, 118, 228);
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.recruiting{
+    background-color: rgb(118, 228, 124);
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.mobile{
+    background-color: rgb(238, 163, 78);
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.website{
+    background-color: rgb(236, 121, 227);
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.sales{
+    background-color: rgb(167, 236, 121);
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
 }
 
